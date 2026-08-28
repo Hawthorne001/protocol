@@ -1,4 +1,5 @@
 six
 sphinx==3.5.4
 sphinx-markdown-tables
-jinja2<3.1
+jinja2<3.1.5
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
